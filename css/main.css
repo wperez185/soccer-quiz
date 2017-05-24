@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    /*background-color: darkgray; */
+    background-color: #095392;
+    color: #fff;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    margin: 0;
+    padding-top: 18px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 35px;
+}
+
+li {
+    background-color: cornflowerblue;
+    padding: 4px;
+    border: 2px solid #fff;
+    width: 140px;
+    margin: 5px auto;
+}
+
+section {
+    text-align: center;
+    height: 100px;
+    margin-top: 90px;
+}
+
+main {
+    position: fixed;
+    right: 352px;
+    top: 21px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+}
+
+.button:active {
+    border: 1px solid #fff;
+}
+
+.numberQuestions {
+    color: #fff;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.message-container {
+    background-color: cornflowerblue;
+    width: 250px;
+    border: 2px double red;
+    height: auto;
+    padding: 6px;
+    opacity: 0.9;
+    position: fixed;
+    top: 130px;
+    right: 427px;
+    /*display: none;*/
+}
+
+.next {
+    /*background-color: #4CAF50; */
+    background-color: #08d611;
+    color: white;
+    font-size: 24px;
+    padding: 3px;
+    position: fixed;
+    top: 335px;
+    right: 510px;
+}
+
+.hide {
+    display: none;
+}
+
+.start-text {
+    color: #fff;
+    font-size: 25px;
+    margin-right: -57px;
+}
+
+.number-questions {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.question {
+    border: 2px double #fff;
+    width: 400px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #1919bb;
+}
+
+.soccer-image {
+    margin-top: 25px;
+}
+
+.score {
+    background-color: #1919bb;
+    border: 2px double #fff;
+    width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.final-results {
+    background-color: #1919bb;
+    width: 250px;
+    border: 2px double #fff;
+    height: auto;
+    padding: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
